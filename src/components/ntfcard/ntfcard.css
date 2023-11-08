@@ -8,7 +8,7 @@
 }
 
 .card__container {
-    width: 400px;
+    width: 360px;
     background: var(--Very-dark-bluecard-BG);
     display: flex;
     justify-content: flex-start;
