@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    line-height: 1.4;
+}
+
+.card__container {
+    width: 400px;
+    background: var(--Very-dark-bluecard-BG);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    gap: 1.5rem;
+}
+
+.img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.img_container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img_container:hover::before {
+    content: url('../../images/icon-view.svg');
+    background: hsla(178, 100%, 50%, 0.6);
+}
+
+.img_container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    position: absolute;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--White-color);
+    transition: all 0.2s ease-in;
+    font-family: "";
+}
+
+h2 {
+    color: var(--White-color);
+    font-size: 1.5rem;
+}
+
+h2:hover {
+    color: var(--Cyan-color);
+    cursor: pointer;
+}
+
+.card__container_text {
+    color: var(--Soft-blue);
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.card__container_information {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card__container_information img {
+    width: auto;
+    height: 16px;
+    margin-right: 0.4rem;
+}
+
+.etherum-text {
+    color: var(--Soft-blue);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.clock-text {
+    color: var(--Cyan-color);
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: var(--Very-dark-blue-line);
+    border: none;
+}
+
+.avatar_text {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: var(--Soft-blue);
+}
+
+.avatar_text img {
+    width: 2.5rem;
+    border: 1px solid var(--White-color);
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+.avatar_name {
+    color: var(--White-color);
+}
+
+.avatar_name:hover {
+    color: var(--Cyan-color);
+    cursor: pointer;
+}
