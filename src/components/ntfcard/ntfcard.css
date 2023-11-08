@@ -50,9 +50,8 @@
 }
 
 .img_container_hover img{
-    width: 5rem !important;
-    height: auto !important;
-    opacity: 1 !important;
+    width: 3rem;
+    height: auto;
 }
 
 h2 {
