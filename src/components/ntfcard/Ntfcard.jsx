@@ -17,7 +17,7 @@ const Ntfcard = () => {
             <img src={EyeIcon} alt="eye icon" />
           </div>
         </div>
-        <h2>Equilibrium #3429</h2>
+        <h1>Equilibrium #3429</h1>
         <p className='card__container_text'>Our Equilibrium collection promotes balance and calm.</p>
         <div className='card__container_information'>
           <p className='clock-text'><img src={Etherum} alt="Etherum" /> 0.041 ETH</p>
